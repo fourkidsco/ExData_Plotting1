@@ -54,7 +54,7 @@ plot(hpc_set$datetime,
      type="l",
      col="black",
      xlab = "",
-     ylab = "Global Active Power (kilowatts)")
+     ylab = "Global Active Power")
 
 # lower left multiple time chart
 plot(hpc_set$datetime,
@@ -86,7 +86,7 @@ plot(hpc_set$datetime,
      hpc_set$Voltage,
      type="l",
      col="black",
-     xlab = "",
+     xlab = "datetime",
      ylab = "Voltage")
 
 # upper right time chart
@@ -94,6 +94,6 @@ plot(hpc_set$datetime,
      hpc_set$Global_reactive_power,
      type="l",
      col="black",
-     xlab = "",
+     xlab = "datetime",
      ylab = "Global_reactive_power")
 dev.off()
